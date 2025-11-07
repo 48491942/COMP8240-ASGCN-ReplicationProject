@@ -162,6 +162,18 @@ class ABSADatesetReader:
                 'test': './datasets/semeval16/restaurant_test.raw'
             },
 
+            # New Existing Dataset
+            'mams': {
+                'train': './datasets/mams/MAMS_train.raw',
+                'test': './datasets/mams/MAMS_test.raw'
+            },
+
+            # Newly Constructed Dataset
+            'reddit': {
+                'train': './datasets/reddit/reddit_train.raw',
+                'test': './datasets/reddit/reddit_test.raw'
+            },
+
         }
         text = ABSADatesetReader.__read_text__([fname[dataset]['train'], fname[dataset]['test']])
         if os.path.exists(dataset+'_word2idx.pkl'):

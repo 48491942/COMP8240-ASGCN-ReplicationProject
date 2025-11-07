@@ -58,3 +58,12 @@ if __name__ == '__main__':
     process('./datasets/semeval15/restaurant_test.raw')
     process('./datasets/semeval16/restaurant_train.raw')
     process('./datasets/semeval16/restaurant_test.raw')
+
+    # # New Existing Dataset
+    process('./datasets/mams/MAMS_train.raw')
+    process('./datasets/mams/MAMS_test.raw')
+
+    # Newly Constructed Dataset
+    process('./datasets/reddit/reddit_train.raw')
+    process('./datasets/reddit/reddit_test.raw')
+
